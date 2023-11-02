@@ -1,0 +1,43 @@
+<!-- KitchenWares -->
+KitchenWares is a web application that displays a list of kitchen products. The product details are fetched from a JSON data source and displayed on the page. Users can view product information, including the title, description, price, and add products to their cart.
+
+<!-- Features -->
+Display a list of kitchen products with details.
+Users can add products to their cart.
+Product details are fetched from a JSON data source.
+
+<!-- Usage -->
+
+Clone the repository to your local machine using Git:
+
+git bash
+
+git clone https://github.com/Dorisk830/KitchenWares.git
+
+
+The product details will be displayed on the page. You can view product information and add products to your cart.
+
+<!-- steps -->
+Clone the repository to your local machine (if you haven't already):
+
+bash
+Copy code
+git clone https://github.com/Dorisk830/KitchenWares.git
+Open the project folder in your preferred code editor.
+
+Make any necessary changes to the HTML, CSS, or JavaScript files.
+
+Test your changes by opening index.html with Live Server.
+
+Once you are satisfied with your changes, you can push them to your repository or deploy the project.
+
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and test them.
+Commit your changes with clear messages.
+Push your changes to your fork.
+Create a pull request to the original repository.
+License

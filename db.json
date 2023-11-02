@@ -1,20 +1,26 @@
-[
-  {
-    "image_url": "https://scontent.fnbo2-1.fna.fbcdn.net/v/t45.5328-…_bIFx_m9RRA2kshFid0iSwynCcdfHh5SaSQiA&oe=65472AF1",
-    "title": "json-server",
-    "description": "typicode",
-    "price": "9,99"
-  },
-  {
-    "image_url": "https://scontent.fnbo2-1.fna.fbcdn.net/v/t45.5328-…_bIFx_m9RRA2kshFid0iSwynCcdfHh5SaSQiA&oe=65472AF1",
-    "title": "json-server",
-    "description": "typicode",
-    "price": "9.99"
-  },
-  {
-    "image_url": "https://scontent.fnbo2-1.fna.fbcdn.net/v/t45.5328-…_bIFx_m9RRA2kshFid0iSwynCcdfHh5SaSQiA&oe=65472AF1",
-    "title": "json-server",
-    "description": "typicode",
-    "price": "9.99"
+{
+
+  "apiProducts":[
+       {
+        "id": 1,
+        "image_url": "https://i.ibb.co/wQ4G0w1/flatiron-brew.png",
+        "title": "json-server",
+        "description": "typicode",
+        "price": "9,99"
+      },
+      {
+        "id": 2,
+        "image_url": "https://i.ibb.co/wQ4G0w1/flatiron-brew.png",
+        "title": "json-server",
+        "description": "typicode",
+        "price": "9.99"
+      },
+      {
+        "id": 3,
+        "image_url": "https://images.punkapi.com/v2/5.png",
+        "title": "json-server",
+        "description": "typicode",
+        "price": "9.99"
+      }
+    ]
   }
-]

@@ -1,4 +1,3 @@
-/* Reset and global styles */
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +10,6 @@ body {
     color: #555;
 }
 
-/* Header styles */
 h1 {
     text-align: center;
     margin-top: 50px;
@@ -34,25 +32,22 @@ h1 {
     margin: 10px; /* Add spacing between products */
 }
 
-/* Image styles */
+
 .product img {
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-/* Description styles */
 .description {
     margin: 10px 0;
 }
 
-/* Price styles */
 .price {
     font-weight: 600;
     color: #9b0b03;
 }
 
-/* Add to Cart button styles */
 .cart {
     background-color: #3e628f;
     color: white;

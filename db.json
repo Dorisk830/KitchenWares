@@ -1,19 +1,20 @@
-{
-    "posts": [
-      {
-        "id": 1,
-        "title": "json-server",
-        "author": "typicode"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-      }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+[
+  {
+    "image_url": "https://scontent.fnbo2-1.fna.fbcdn.net/v/t45.5328-…_bIFx_m9RRA2kshFid0iSwynCcdfHh5SaSQiA&oe=65472AF1",
+    "title": "json-server",
+    "description": "typicode",
+    "price": "9,99"
+  },
+  {
+    "image_url": "https://scontent.fnbo2-1.fna.fbcdn.net/v/t45.5328-…_bIFx_m9RRA2kshFid0iSwynCcdfHh5SaSQiA&oe=65472AF1",
+    "title": "json-server",
+    "description": "typicode",
+    "price": "9.99"
+  },
+  {
+    "image_url": "https://scontent.fnbo2-1.fna.fbcdn.net/v/t45.5328-…_bIFx_m9RRA2kshFid0iSwynCcdfHh5SaSQiA&oe=65472AF1",
+    "title": "json-server",
+    "description": "typicode",
+    "price": "9.99"
   }
+]

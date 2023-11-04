@@ -20,9 +20,9 @@ h1 {
     display: flex;
     flex-wrap: wrap; /* Enable wrapping for product items */
     justify-content: space-between; /* Space evenly between rows */
-    max-width: 960px; /* Adjust the maximum width for the products */
+    max-width: 1000px; /* Adjust the maximum width for the products */
     margin: 0 auto; /* Center-align the products container */
-    padding: 20px;
+    padding: 5px;
 }
 
 /* Product item styles */

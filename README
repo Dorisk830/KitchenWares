@@ -6,6 +6,17 @@ KitchenWares is a web application that displays a list of kitchen products. The 
 •	Users can add products to their cart.
 •	Product details are fetched from a JSON data source.
 
+<!-- setup -->
+Run this command to get the backend started:
+json-server --watch db.json --port 3000
+
+Test your server by visiting this route in the browser:
+http://localhost:3000/apiProducts
+
+Then, open the index.html file on your browser to run the application.
+
+Write your code in the src/index.js file. The base URL for your API will be http://localhost:3000.
+
 <!-- Usage -->
 
 Clone the repository to your local machine using Git:

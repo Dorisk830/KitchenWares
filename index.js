@@ -1,16 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const base_url = "http://localhost:3000";
+    const base_url = "https://github.com/Dorisk830/KitchenWares/";
     console.log("API base URL:", base_url);
-
-    // Cart array to store selected products
-    const cart = [];
 
     // Function to fetch and display products
     function fetchProducts() {
         fetch(`${base_url}products.json`)
             .then((response) => response.json())
             .then((data) => {
-                const productsContainer = document.querySelector(".products");
+                const productsList = document.getElementById("products-list");
 
                 data.apiProducts.forEach((product) => {
                     const productElement = document.createElement("div");
@@ -30,50 +27,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     const price = document.createElement("div");
                     price.className = "price";
-                    price.textContent = `$${product.price}`;
+                    price.textContent = product.price;
 
                     const cartButton = document.createElement("button");
                     cartButton.className = "cart-button";
                     cartButton.textContent = "Add to Cart";
-
-                    cartButton.addEventListener("click", () => {
-                        // Check if the product is already in the cart
-                        const isInCart = cart.some((item) => item.id === product.id);
-
-                        if (!isInCart) {
-                            // Add the selected product to the cart array
-                            cart.push(product);
-
-                            // You can add more logic to update the UI or provide feedback
-
-                            // Update the cart total
-                            const cartTotal = document.getElementById("cart-total");
-                            const total = cart.reduce((acc, item) => acc + parseFloat(item.price.replace('@', '').replace(',', '')), 0);
-                            cartTotal.textContent = `Total: $${total.toFixed(2)}`;
-
-                            // Add a click event listener to the remove button
-                            const cartList = document.getElementById("cart-list");
-                            const cartItem = document.createElement("li");
-                            cartItem.innerHTML = `${product.title} - $${product.price} <button class="remove-cart-item">Remove</button>`;
-                            cartList.appendChild(cartItem);
-
-                            const removeButton = cartItem.querySelector(".remove-cart-item");
-                            removeButton.addEventListener("click", () => {
-                                // Remove the product from the cart
-                                const productIndex = cart.findIndex((item) => item.id === product.id);
-                                if (productIndex !== -1) {
-                                    cart.splice(productIndex, 1);
-                                }
-
-                                // Remove the cart item from the list
-                                cartList.removeChild(cartItem);
-
-                                // Update the cart total
-                                const newTotal = cart.reduce((acc, item) => acc + parseFloat(item.price.replace('@', '').replace(',', '')), 0);
-                                cartTotal.textContent = `Total: $${newTotal.toFixed(2)}`;
-                            });
-                        }
-                    });
 
                     productElement.appendChild(img);
                     productElement.appendChild(title);
@@ -81,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     productElement.appendChild(price);
                     productElement.appendChild(cartButton);
 
-                    productsContainer.appendChild(productElement);
+                    productsList.appendChild(productElement);
                 });
             })
             .catch((error) => console.error("Error fetching products:", error));

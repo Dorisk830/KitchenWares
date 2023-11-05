@@ -231,11 +231,11 @@ body {
 
 .footer {
     display: flex;
-    background-color: white;;
-    color: #fff;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 10px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .contact-details {
@@ -262,5 +262,9 @@ body {
 .contact-info p:nth-child(3) {
     margin-top: 10px;
 }
+
+/* Rest of your CSS styles */
+/* ... (Add the provided CSS code here) */
+
 
 

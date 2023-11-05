@@ -231,8 +231,8 @@ body {
 
 .footer {
     display: flex;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 10px;
     justify-content: space-between;

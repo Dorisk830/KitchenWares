@@ -68,9 +68,44 @@
       {
         "id": 10,
         "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699216682/WhatsApp_Image_2023-11-04_at_9.19.52_AM_f3r1fj.jpg",
-        "title": "High",
-        "description": "",
-        "price": "KES @8000"
+        "title": "dinner set",
+        "description": "31pcs dinner set",
+        "price": "KES @8200"
+      },
+      {
+        "id": 11,
+        "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699216681/WhatsApp_Image_2023-11-04_at_9.19.57_AM_ryrv7z.jpg",
+        "title": "dinner set",
+        "description": "30pcs dinner set",
+        "price": "KES @8300"
+      },
+      {
+        "id": 12,
+        "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699216682/WhatsApp_Image_2023-11-04_at_9.19.52_AM_f3r1fj.jpg",
+        "title": "dinner set",
+        "description": "30pcs dinner set",
+        "price": "KES @8300"
+      },
+      {
+        "id": 13,
+        "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699216681/WhatsApp_Image_2023-11-04_at_9.19.50_AM_1_po31qk.jpg",
+        "title": "dinner set",
+        "description": "26 pcs dinner set",
+        "price": "KES @8500"
+      },
+      {
+        "id": 14,
+        "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699216682/WhatsApp_Image_2023-11-04_at_9.19.52_AM_f3r1fj.jpg",
+        "title": "dinner set",
+        "description": "31pcs dinner set",
+        "price": "KES @8200"
+      },
+      {
+        "id": 15,
+        "image_url": "https://res.cloudinary.com/dm9owyvek/image/upload/v1699216682/WhatsApp_Image_2023-11-04_at_9.19.52_AM_f3r1fj.jpg",
+        "title": "dinner set",
+        "description": "31pcs dinner set",
+        "price": "KES @8200"
       }
     ]
   }

@@ -234,6 +234,8 @@ body {
     text-align: center;
     padding: 20px;
     justify-content: space-between;
+    color:#333;
+    background-color: #fff;
 }
 
 .contact-details {

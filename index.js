@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         productsList.appendChild(productElement);
                     });
                 } else {
-                    console.error("Invalid or missing data structure.");
+                    console.error("missing data structure.");
                 }
             })
             .catch((error) => console.error("Error fetching products:", error));

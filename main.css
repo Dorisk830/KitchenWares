@@ -229,18 +229,20 @@ body {
     cursor: pointer;
 }
 
-.footer {
+/* .footer {
     display: flex;
-    text-align: center;
-    padding: 20px;
     justify-content: space-between;
-    color:#333;
+    color: black;
     background-color: #fff;
-}
+} */
 
 .contact-details {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    padding-left: 300px;
+    font-weight: bolder;
+    color: #053269;
 }
 
 .contact-info {
